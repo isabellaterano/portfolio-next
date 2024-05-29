@@ -16,7 +16,6 @@ const Links = ({ setIsOpen }: LinksProps) => {
     <nav className="flex flex-col gap-7 pt-40 px-8 text-5xl md:flex-row md:text-lg md:pt-0 text-zinc-100">
       <Link
         href="/"
-        locale={t.locale}
         onClick={handleLinkClick}
         className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-cyan-700 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
       >
@@ -24,7 +23,6 @@ const Links = ({ setIsOpen }: LinksProps) => {
       </Link>
       <Link
         href="/about"
-        locale={t.locale}
         onClick={handleLinkClick}
         className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-cyan-700 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
       >
@@ -32,7 +30,6 @@ const Links = ({ setIsOpen }: LinksProps) => {
       </Link>
       <Link
         href="/projects"
-        locale={t.locale}
         onClick={handleLinkClick}
         className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-cyan-700 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
       >
@@ -40,7 +37,6 @@ const Links = ({ setIsOpen }: LinksProps) => {
       </Link>
       <Link
         href="/contact"
-        locale={t.locale}
         onClick={handleLinkClick}
         className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-cyan-700 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
       >
