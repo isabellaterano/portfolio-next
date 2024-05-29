@@ -1,0 +1,43 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "about": "Sobre",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "Home": {
+    "h1": "Isabella Terano",
+    "p": " Desenvolvedora Front-End | Designer UI/UX"
+  },
+  "About": {
+    "h1": "Sobre",
+    "p": "Olá! Sou Isabella Terano, desenvolvedora Front-End Web e Designer UX/UI. Quando não estou escrevendo código, muitas vezes você pode me encontrar imersa no mundo dos filmes de terror. Sim, sou aquela pessoa que antecipa ansiosamente cada susto e reviravolta na história! Estou sempre curiosa para aprender mais, especialmente quando se trata de explorar novas tecnologias e design. Meu foco é capacitar os usuários por meio de design intuitivo, acessibilidade e otimização de desempenho para uma experiência de navegação perfeita.",
+    "skills": "Skills"
+  },
+  "Contact": {
+    "h1": "Contato",
+    "pfirst": "Entre em contato diretamente em ",
+    "psecond": "ou diretamente pelo formulário. Eu vou retornar o mais rápido possível.",
+    "email": "Digite seu e-mail",
+    "message": "Digite sua mensagem!",
+    "button": "Enviar"
+  },
+  "Project": {
+    "h1": "Projeto",
+    "medical": {
+      "title": "StayHealthy Consultas Médicas"
+    },
+    "rental": {
+      "title": "DreamDwell Imobiliária"
+    },
+    "chair": {
+      "title": "Chair E-commerce"
+    },
+    "forge": {
+      "title": "Forge Agência Digital"
+    },
+
+    "demo": "visitar",
+    "code": "code"
+  }
+}
