@@ -11,8 +11,8 @@ const spaceGrotesk = Space_Grotesk({ subsets: ["latin"], display: "swap" });
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Isabella Terano",
-    default: "Portfolio | Isabella Terano",
+    template: "%s | Isabella",
+    default: "Portfolio | Isabella",
   },
   description:
     "Front-End Developer with expertise in React and UI/UX design, building user-friendly and responsive web experiences.",
@@ -29,7 +29,7 @@ export default async function RootLayout({
   children,
   params: { locale },
 }: RootLayoutProps) {
-  const messages = await getMessages(locale);
+  const messages = await getMessages({ locale });
   return (
     <html lang={locale}>
       <body
