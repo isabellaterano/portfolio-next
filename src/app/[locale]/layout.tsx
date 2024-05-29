@@ -11,8 +11,8 @@ const spaceGrotesk = Space_Grotesk({ subsets: ["latin"], display: "swap" });
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Isabella ",
-    default: "Portfolio | Isabella ",
+    template: "%s | Isabella Terano",
+    default: "Portfolio | Isabella Terano",
   },
   description:
     "Front-End Developer with expertise in React and UI/UX design, building user-friendly and responsive web experiences.",
