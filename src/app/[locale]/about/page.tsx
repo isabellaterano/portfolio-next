@@ -24,7 +24,7 @@ const About = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mb-12">
             {skillsData.map((skill) => (
               <div
-                className="rounded-md border-2 flex flex-col items-center justify-center py-3 px-2 bg-slate-700 hover:ring-2 ring-teal-700"
+                className="rounded-md ring-2 ring-zinc-200 bg-zinc-800 flex flex-col items-center justify-center py-3 px-2 hover:ring-sky-500"
                 key={skill.title}
               >
                 <Image

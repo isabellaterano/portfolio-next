@@ -33,19 +33,19 @@ const LanguageBtn = () => {
       </button>
 
       {isOpen && (
-        <div className="origin-top-right absolute right-0 mt-2 w-44 rounded-lg shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+        <div className="origin-top-right absolute right-0 mt-2 w-40 rounded-lg shadow-lg bg-white ring-1 ring-black ring-opacity-5">
           <ul
             role="menu"
             aria-orientation="vertical"
             aria-labelledby="options-menu"
           >
             <li onClick={() => changeLanguage("en")}>
-              <button className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+              <button className="block px-4 py-2 text-sm text-gray-700 hover:bg-zinc-100 hover:rounded-tl-md">
                 English
               </button>
             </li>
             <li onClick={() => changeLanguage("pt")}>
-              <button className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+              <button className="block px-4 py-2 text-sm text-gray-700 hover:bg-zinc-100 hover:rounded-bl-md">
                 Português
               </button>
             </li>

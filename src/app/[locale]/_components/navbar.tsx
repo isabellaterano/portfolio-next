@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="flex md:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="text-black focus:outline-none z-50 relative"
+            className="text-zinc-950 focus:outline-none z-50 relative"
           >
             {isOpen ? (
               <XSquare size={28} color="#f8fafc" />
@@ -40,7 +40,7 @@ const Navbar = () => {
       <div
         className={`${
           isOpen ? "block" : "hidden"
-        } md:hidden fixed top-0 left-0 w-full h-full bg-slate-950 z-40`}
+        } md:hidden fixed top-0 left-0 w-full h-full bg-zinc-950 z-40`}
       >
         <div>
           <Links setIsOpen={setIsOpen} />

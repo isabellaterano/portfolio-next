@@ -15,8 +15,7 @@ export default function Contact() {
   return (
     <section className="mx-2">
       <div className="flex items-center justify-center flex-col mt-24">
-        <h1 className="text-2xl font-semibold text-center pb-8">{t("h1")}</h1>
-        <div className="w-[min(100%,38rem)] bg-slate-700 p-6 rounded-lg shadow-lg mb-12">
+        <div className="w-[min(100%,38rem)] bg-slate-200 text-slate-950 p-6 rounded-lg shadow-lg mb-10">
           <p className="text-center mb-4">
             {t("pfirst")}
             <Link className="underline" href="mailto:isabellaiterano@gmail.com">
@@ -55,7 +54,7 @@ export default function Contact() {
             />
             <button
               type="submit"
-              className="group flex justify-center items-center rounded-2xl border-2 border-dashed border-black bg-white px-6 py-3 font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none"
+              className="group flex justify-center items-center rounded-lg border-2 border-dashed border-black bg-white px-6 py-3 font-semibold uppercase text-black w-52 transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none"
               disabled={pending}
             >
               {pending ? (

@@ -7,7 +7,7 @@
   },
   "Home": {
     "h1": "Isabella Terano",
-    "p": "Frontend Developer | UI/UX Designer"
+    "p": "Front-end Developer | UI/UX Designer"
   },
   "About": {
     "h1": "About",
@@ -15,7 +15,6 @@
     "skills": "Skills"
   },
   "Contact": {
-    "h1": "Contact",
     "pfirst": "Please contact me directly at ",
     "psecond": "or through this form. I'll get back to you as soon as possible.",
     "email": "Your email",

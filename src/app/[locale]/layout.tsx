@@ -16,6 +16,24 @@ export const metadata: Metadata = {
   },
   description:
     "Front-End Developer with expertise in React and UI/UX design, building user-friendly and responsive web experiences.",
+  keywords: [
+    "Front-End Developer",
+    "React",
+    "UI/UX Design",
+    "Responsive Web Design",
+    "Isabella Terano Portfolio",
+    "Web Developer",
+    "JavaScript Developer",
+  ],
+  openGraph: {
+    title: "Portfolio | Isabella Terano",
+    description:
+      "Front-End Developer with expertise in React and UI/UX design, building user-friendly and responsive web experiences.",
+    type: "website",
+    locale: "en_US",
+    url: "https://isabellaterano.vercel.app/en",
+    siteName: "Isabella Terano Portfolio",
+  },
 };
 
 interface RootLayoutProps {
@@ -33,7 +51,7 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <body
-        className={`${spaceGrotesk.className} antialiased bg-slate-950 text-slate-100 min-h-screen flex flex-col relative tracking-wide leading-loose`}
+        className={`${spaceGrotesk.className} antialiased bg-zinc-950 text-zinc-100 min-h-screen flex flex-col relative tracking-wide leading-loose m-0 p-0 box-border`}
       >
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Navbar />

@@ -20,10 +20,7 @@ const Projects = () => {
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
         {projectsData.map((project, index) => (
-          <div
-            className="rounded-md shadow-lg bg-slate-900"
-            key={project.title}
-          >
+          <div className="rounded-md shadow-lg bg-zinc-300" key={project.title}>
             <div>
               <Image
                 src={project.imageUrl}
@@ -32,8 +29,8 @@ const Projects = () => {
               />
             </div>
             <div className="m-8">
-              <div className="mb-8">
-                <h2 className="font-semibold text-lg mb-2">
+              <div className="mb-8 text-zinc-900">
+                <h2 className="font-semibold text-lg mb-2 ">
                   {t(`${keys[index]}.title`)}
                 </h2>
                 <p className="text-sm">{project.tags.join(" ")}</p>
@@ -41,7 +38,7 @@ const Projects = () => {
               <div className="flex-grow">
                 <Link
                   href={project.urlDemo}
-                  className="group relative inline-flex justify-center w-fit items-center gap-1.5 rounded-md bg-slate-950 border-2 border-gray-950 px-4 py-2 mr-2 text-gray-50 hover:bg-gray-950/50"
+                  className="group relative inline-flex justify-center w-fit items-center gap-1.5 rounded-md bg-zinc-950 border-2 border-zinc-950 px-4 py-2 mr-2 text-zinc-200 hover:bg-zinc-300 hover:text-zinc-900"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -53,7 +50,7 @@ const Projects = () => {
                 </Link>
                 <Link
                   href={project.urlCode}
-                  className="group relative inline-flex justify-center w-fit items-center gap-1.5 rounded-md border-2 border-gray-950 px-4 py-2 mr-2 text-gray-50 hover:bg-slate-950"
+                  className="group relative inline-flex justify-center w-fit items-center gap-1.5 rounded-md border-2 border-gray-950 px-4 py-2 mr-2 text-zinc-900 hover:bg-zinc-950 hover:text-zinc-300"
                   rel="noopener noreferrer "
                   target="_blank"
                 >
