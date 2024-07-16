@@ -3,9 +3,9 @@
 import React from "react";
 import { useTranslations } from "next-intl";
 import { useFormStatus } from "react-dom";
-import { sendEmail } from "../../../../actions/sendEmail";
 import toast from "react-hot-toast";
 import Link from "next/link";
+import { sendEmail } from "../../../../actions/sendEmail";
 import { PaperPlaneRight } from "@phosphor-icons/react/dist/ssr";
 
 export default function Contact() {
@@ -14,7 +14,10 @@ export default function Contact() {
 
   return (
     <section className="mx-2">
-      <div className="flex items-center justify-center flex-col mt-24">
+      <h1 className="text-3xl font-semibold text-center p-4 mt-24 mb-8">
+        {t("h1")}
+      </h1>
+      <div className="flex items-center justify-center flex-col">
         <div className="w-[min(100%,38rem)] bg-slate-200 text-slate-950 p-6 rounded-lg shadow-lg mb-10">
           <p className="text-center mb-4">
             {t("pfirst")}

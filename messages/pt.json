@@ -10,7 +10,7 @@
     "p": " Desenvolvedora Front-End | Designer UI/UX"
   },
   "About": {
-    "h1": "Sobre",
+    "h1": "Sobre mim",
     "p": "Olá! Sou Isabella Terano, desenvolvedora Front-End Web e Designer UX/UI. Quando não estou escrevendo código, muitas vezes você pode me encontrar imersa no mundo dos filmes de terror. Sim, sou aquela pessoa que antecipa ansiosamente cada susto e reviravolta na história! Estou sempre curiosa para aprender mais, especialmente quando se trata de explorar novas tecnologias e design. Meu foco é capacitar os usuários por meio de design intuitivo, acessibilidade e otimização de desempenho para uma experiência de navegação perfeita.",
     "skills": "Skills"
   },
@@ -23,21 +23,38 @@
     "button": "Enviar"
   },
   "Project": {
-    "h1": "Projeto",
+    "h1": "Projetos",
     "medical": {
-      "title": "StayHealthy Consultas Médicas"
+      "title": "StayHealthy Plataforma de consulta médica"
     },
     "rental": {
       "title": "DreamDwell Imobiliária"
     },
     "chair": {
-      "title": "Chair E-commerce"
+      "title": "Chair | E-commerce"
+    },
+    "tattoo": {
+      "title": "Skull Tattoo Studio"
+    },
+    "portfolio": {
+      "title": "Portfólio Pessoal"
     },
     "forge": {
       "title": "Forge Agência Digital"
     },
+    "animal": {
+      "title": "PetCare Clinica Veterinária"
+    },
+    "full": {
+      "title": "Portfólio | Desenvolvedor"
+    },
+    "designer": {
+      "title": "Portfólio | Design Gráfico"
+    },
+    "photo": {
+      "title": "Portfólio | Fotógrafo"
+    },
 
-    "demo": "visitar",
-    "code": "code"
+    "demo": "visitar site"
   }
 }

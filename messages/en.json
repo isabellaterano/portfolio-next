@@ -10,11 +10,12 @@
     "p": "Front-end Developer | UI/UX Designer"
   },
   "About": {
-    "h1": "About",
+    "h1": "About me",
     "p": "Hi there! I'm Isabella Terano, a Front-End Web Developer and UX Designer based in Brazil. When I'm not writing code, you can often find me immersed in the world of horror films. Yes, I'm that person who eagerly anticipates every jump scare and plot twist! I'm always curious to learn more, when it comes to explore new technologies and design. My focus is on empowering users through intuitive design, accessibility, and optimizing performance for a seamless browsing experience.",
     "skills": "Skills"
   },
   "Contact": {
+    "h1": "Contact",
     "pfirst": "Please contact me directly at ",
     "psecond": "or through this form. I'll get back to you as soon as possible.",
     "email": "Your email",
@@ -24,19 +25,35 @@
   "Project": {
     "h1": "Projects",
     "medical": {
-      "title": "StayHealthy Medical Appointment Booking"
+      "title": "StayHealthy Medical consultation platform"
     },
     "rental": {
       "title": "DreamDwell Real Estate"
     },
     "chair": {
-      "title": "Chair E-commerce"
+      "title": "Chair | E-commerce"
+    },
+    "tattoo": {
+      "title": "Skull Tattoo Studio"
+    },
+    "portfolio": {
+      "title": "Personal Portfolio"
     },
     "forge": {
       "title": "Forge Digital Agency"
     },
-
-    "demo": "visit",
-    "code": "code"
+    "animal": {
+      "title": "PetCare Veterinary Clinic"
+    },
+    "full": {
+      "title": "Portfolio | Developer"
+    },
+    "designer": {
+      "title": "Portfolio | Graphic Design"
+    },
+    "photo": {
+      "title": "Portfolio | Photographer"
+    },
+    "demo": "visit website"
   }
 }
