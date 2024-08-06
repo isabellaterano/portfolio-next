@@ -44,21 +44,44 @@ const HomePage: React.FC = () => {
         </h1>
         <p className="my-6  text-center text-base md:text-2xl">{t("p")}</p>
 
-        <div className="flex mt-6">
-          {["/projects", "/contact"].map((href, index) => (
-            <motion.div
-              key={href}
-              style={{ border, boxShadow }}
-              whileHover={{ scale: 1.015 }}
-              whileTap={{ scale: 0.985 }}
-              className="group relative flex justify-center w-fit items-center gap-1.5 rounded-md bg-gray-950/10 px-4 py-2 mx-2 text-slate-50 transition-colors hover:bg-gray-950/50"
-            >
-              <Link href={href} className="inline-flex items-center gap-1.5">
-                {t(index === 0 ? "button" : "button2")}
-                <ArrowRight className="transition-transform group-hover:-rotate-45 group-active:-rotate-12" />
-              </Link>
-            </motion.div>
-          ))}
+        <div className="flex">
+          <motion.div
+            style={{
+              border,
+              boxShadow,
+            }}
+            whileHover={{
+              scale: 1.015,
+            }}
+            whileTap={{
+              scale: 0.985,
+            }}
+            className="group relative flex justify-center w-fit items-center gap-1.5 rounded-md bg-gray-950/10 px-4 py-2 mr-2 text-gray-50 transition-colors hover:bg-gray-950/50"
+          >
+            <Link href="/projects" className="inline-flex items-center gap-1.5">
+              {t("button")}
+              <ArrowRight className="transition-transform group-hover:-rotate-45 group-active:-rotate-12" />
+            </Link>
+          </motion.div>
+
+          <motion.div
+            style={{
+              border,
+              boxShadow,
+            }}
+            whileHover={{
+              scale: 1.015,
+            }}
+            whileTap={{
+              scale: 0.985,
+            }}
+            className="group relative flex justify-center w-fit items-center gap-1.5 rounded-md bg-gray-950/10 px-4 py-2 mr-2 text-slate-50 transition-colors hover:bg-gray-950/50"
+          >
+            <Link href="/contact" className="inline-flex items-center gap-1.5">
+              {t("button2")}
+              <ArrowRight className="transition-transform group-hover:-rotate-45 group-active:-rotate-12" />
+            </Link>
+          </motion.div>
         </div>
       </div>
 
