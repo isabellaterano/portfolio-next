@@ -6,8 +6,10 @@
     "contact": "Contact"
   },
   "Home": {
-    "h1": "Isabella Terano",
-    "p": "Front-end Developer | UI/UX Designer"
+    "h1": "Hi, my name is Isabella.",
+    "p": "I’m a front-end web developer & UX/UI designer.",
+    "button": "see my projects",
+    "button2": "contact me"
   },
   "About": {
     "h1": "About me",

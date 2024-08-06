@@ -6,8 +6,10 @@
     "contact": "Contato"
   },
   "Home": {
-    "h1": "Isabella Terano",
-    "p": " Desenvolvedora Front-End | Designer UI/UX"
+    "h1": "Olá, meu nome é Isabella.",
+    "p": "Sou desenvolvedora web front-end & designer UX/UI.",
+    "button": "conheça meu trabalho",
+    "button2": "contato"
   },
   "About": {
     "h1": "Sobre mim",
