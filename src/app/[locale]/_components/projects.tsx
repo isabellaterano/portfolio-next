@@ -73,7 +73,7 @@ const Project = () => {
                   {project.tags}
                 </span>
               </div>
-              <Link
+              <a
                 href={project.urlDemo}
                 className="group relative inline-flex justify-center items-center gap-1.5 rounded-md bg-zinc-900 border-2 border-zinc-900 px-4 py-2 text-zinc-200 hover:bg-white hover:text-zinc-900"
                 rel="noopener noreferrer"
@@ -84,7 +84,7 @@ const Project = () => {
                   size={16}
                   className="transition-transform group-hover:-rotate-45 group-active:-rotate-12"
                 />
-              </Link>
+              </a>
             </div>
           </div>
         ))}
