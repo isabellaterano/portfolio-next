@@ -16,9 +16,8 @@ const LanguageBtn = () => {
   const closeDropdown = () => {
     setIsOpen(false);
   };
-
   const changeLanguage = (locale: string) => {
-    router.push(pathname, { locale });
+    router.push(pathname, { locale: locale as "en" | "pt" });
     closeDropdown();
   };
 
