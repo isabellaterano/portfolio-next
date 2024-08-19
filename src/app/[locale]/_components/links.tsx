@@ -45,7 +45,7 @@ const Links = ({ setIsOpen }: LinksProps) => {
       >
         {t("projects")}
       </Link>
-      <Link
+      <a
         href={
           pathname.includes("/portfolio") || pathname.includes("/about")
             ? "/#contact"
@@ -55,7 +55,7 @@ const Links = ({ setIsOpen }: LinksProps) => {
         className={navLinkClasses}
       >
         {t("contact")}
-      </Link>
+      </a>
     </nav>
   );
 };
