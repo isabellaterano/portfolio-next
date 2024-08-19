@@ -3,7 +3,7 @@ import project2 from "../../public/images/project2.png";
 import project3 from "../../public/images/project3.png";
 import project4 from "../../public/images/project4.png";
 import project5 from "../../public/images/project5.png";
-import project6 from "../../public/images/project1.png";
+import project6 from "../../public/images/project6.png";
 import project7 from "../../public/images/project7.png";
 import project8 from "../../public/images/project8.png";
 import project9 from "../../public/images/project9.png";
