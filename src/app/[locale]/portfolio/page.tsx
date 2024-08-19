@@ -6,7 +6,7 @@ import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
 import { projectsData } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Projects",
+  title: "Portfolio",
   description:
     "Showcase of various projects including web development, e-commerce, and more.",
   keywords: [
@@ -27,11 +27,12 @@ export const metadata: Metadata = {
   },
 };
 
-const Projects = () => {
+const Portfolio = () => {
   const t = useTranslations("Project");
   const keys = [
     "medical",
     "rental",
+    "software",
     "forge",
     "chair",
     "tattoo",
@@ -43,17 +44,22 @@ const Projects = () => {
   ] as const;
 
   return (
-    <section className="mx-2 md:mx-16 mb-10">
-      <h1 className="text-3xl font-semibold text-center p-4 mt-24 mb-10">
-        {t("h1")}
-      </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <section className="relative py-12 px-4 sm:px-6 lg:px-8 mx-auto lg:mx-20">
+      <div className="max-w-screen-xl mx-auto">
+        <h1 className="text-2xl md:text-4xl font-bold text-center mt-20 mb-8 text-slate-100">
+          {t("h1")}
+        </h1>
+        <p className="text-lg md:text-xl text-center mb-10 text-slate-300">
+          {t("p")}
+        </p>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projectsData.map((project, index) => (
           <div className="rounded-md shadow-lg bg-zinc-300" key={project.title}>
             <Image
               src={project.imageUrl}
               alt={project.title}
-              className="rounded-t-md"
+              className="rounded-t-md object-cover w-full h-auto"
               loading="lazy"
             />
             <div className="m-8">
@@ -62,14 +68,9 @@ const Projects = () => {
                   {t(`${keys[index]}.title`)}
                 </h2>
                 <div className="flex flex-wrap gap-2">
-                  {project.tags.map((tag) => (
-                    <span
-                      key={tag}
-                      className="inline-block px-2 py-1 text-sm border border-zinc-950 rounded-md"
-                    >
-                      {tag}
-                    </span>
-                  ))}
+                  <span className="inline-block px-2 py-1 text-sm bg-zinc-400 rounded-md">
+                    {project.tags}
+                  </span>
                 </div>
               </div>
               <div className="flex-grow">
@@ -94,4 +95,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Portfolio;

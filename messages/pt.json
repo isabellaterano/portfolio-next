@@ -2,38 +2,49 @@
   "Navigation": {
     "home": "Home",
     "about": "Sobre",
-    "projects": "Projetos",
+    "projects": "Portfólio",
     "contact": "Contato"
   },
   "Home": {
-    "h1": "Olá, meu nome é Isabella.",
+    "h1": "Olá, meu nome é Isabella!",
     "p": "Sou desenvolvedora web front-end & designer UX/UI.",
     "button": "conheça meu trabalho",
-    "button2": "contato"
+    "button2": "contato",
+    "animation": {
+      "text1": "Eu crio sites.",
+      "text2": "Eu desenvolvo interfaces responsivas.",
+      "text3": "Eu crio experiências de usuário perfeitas.",
+      "text4": "Transformando ideias em designs interativos.",
+      "ariaLabel": "Texto animado mostrando diferentes tipos de sites"
+    }
   },
   "About": {
     "h1": "Sobre mim",
-    "p": "Olá! Sou Isabella Terano, desenvolvedora Front-End Web e Designer UX/UI. Quando não estou escrevendo código, muitas vezes você pode me encontrar imersa no mundo dos filmes de terror. Sim, sou aquela pessoa que antecipa ansiosamente cada susto e reviravolta na história! Estou sempre curiosa para aprender mais, especialmente quando se trata de explorar novas tecnologias e design. Meu foco é capacitar os usuários por meio de design intuitivo, acessibilidade e otimização de desempenho para uma experiência de navegação perfeita.",
+    "sub": "Um pouco sobre mim e as tecnologias que utilizo para construir sites excepcionais.",
+    "p": "Olá! Sou Isabella, desenvolvedora Front-End Web e UX Designer do Brasil. Com uma profunda curiosidade por novas tecnologias e inovações de design, dedico-me a criar experiências web intuitivas e acessíveis. Meu foco é capacitar os usuários por meio de um design cuidadoso e otimização de desempenho, garantindo interações contínuas e envolventes.",
     "skills": "Skills"
   },
   "Contact": {
-    "h1": "Contato",
+    "h1": "Entre em contato",
+    "p": "Se você gostou do meu trabalho e tem um projeto em mente, deseja colaborar ou simplesmente deseja compartilhar sua opinião, não hesite em entrar em contato.",
     "pfirst": "Entre em contato diretamente em ",
     "psecond": "ou diretamente pelo formulário. Eu vou retornar o mais rápido possível.",
+    "name": "Digite seu nome",
     "email": "Digite seu e-mail",
     "message": "Digite sua mensagem!",
     "button": "Enviar"
   },
   "Project": {
-    "h1": "Projetos",
+    "h1": "Portfólio",
+    "p": "Explore uma seleção dos diversos projetos que criei ao longo dos anos, incluindo páginas de vendas, landing pages, sites de comércio eletrônico, sites institucionais, portfólios, blogs, aplicativos da web e muito mais.",
     "medical": {
-      "title": "StayHealthy Plataforma de consulta médica"
+      "title": "StayHealthy"
     },
     "rental": {
-      "title": "DreamDwell Imobiliária"
+      "title": "DreamDwell"
     },
     "chair": {
-      "title": "Chair | E-commerce"
+      "title": "Chair"
     },
     "tattoo": {
       "title": "Skull Tattoo Studio"
@@ -45,18 +56,22 @@
       "title": "Forge Agência Digital"
     },
     "animal": {
-      "title": "PetCare Clinica Veterinária"
+      "title": "PetCare Clínica Veterinária"
     },
     "full": {
-      "title": "Portfólio | Desenvolvedor"
+      "title": "JE | Desenvolvedor Full Stack"
     },
     "designer": {
-      "title": "Portfólio | Design Gráfico"
+      "title": "MM | Design Gráfico"
     },
     "photo": {
-      "title": "Portfólio | Fotógrafo"
+      "title": "JL | Fotógrafo"
+    },
+    "software": {
+      "title": "JM | Software Engineer"
     },
 
-    "demo": "visitar site"
+    "demo": "visitar site",
+    "button": "Quero ver mais trabalhos"
   }
 }

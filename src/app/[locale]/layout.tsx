@@ -51,7 +51,7 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <body
-        className={`${spaceGrotesk.className} antialiased bg-zinc-950 text-zinc-100 min-h-screen flex flex-col relative tracking-wide leading-loose m-0 p-0 box-border`}
+        className={`${spaceGrotesk.className} antialiased bg-zinc-800 text-zinc-100 min-h-screen flex flex-col relative tracking-wide leading-loose m-0 p-0 box-border`}
       >
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Navbar />

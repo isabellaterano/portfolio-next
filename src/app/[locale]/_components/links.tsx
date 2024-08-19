@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import { Link } from "../../../navigation";
+import { Link, usePathname } from "@/navigation";
 
 interface LinksProps {
   setIsOpen: (isOpen: boolean) => void;
@@ -7,38 +7,52 @@ interface LinksProps {
 
 const Links = ({ setIsOpen }: LinksProps) => {
   const t = useTranslations("Navigation");
+  const pathname = usePathname();
 
   const handleLinkClick = () => {
     setIsOpen(false);
   };
 
+  const navLinkClasses =
+    "relative block text-4xl md:text-xl font-semibold after:block after:content-[''] after:absolute after:h-[2px] after:bg-cyan-700 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition-transform after:duration-300 after:origin-center";
+
   return (
-    <nav className="flex flex-col gap-7 pt-40 px-8 text-5xl md:flex-row md:text-lg md:pt-0 text-zinc-100">
+    <nav className="flex flex-col items-center gap-10 md:flex-row md:gap-7 text-zinc-50">
       <Link
         href="/"
         onClick={handleLinkClick}
-        className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-cyan-700 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
+        className={`${navLinkClasses} ${
+          pathname === "/" && "after:scale-x-100"
+        }`}
       >
         {t("home")}
       </Link>
       <Link
         href="/about"
         onClick={handleLinkClick}
-        className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-cyan-700 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
+        className={`${navLinkClasses} ${
+          pathname === "/about" && "after:scale-x-100"
+        }`}
       >
         {t("about")}
       </Link>
       <Link
-        href="/projects"
+        href="/portfolio"
         onClick={handleLinkClick}
-        className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-cyan-700 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
+        className={`${navLinkClasses} ${
+          pathname === "/portfolio" && "after:scale-x-100"
+        }`}
       >
         {t("projects")}
       </Link>
       <Link
-        href="/contact"
+        href={
+          pathname.includes("/portfolio") || pathname.includes("/about")
+            ? "/#contact"
+            : "#contact"
+        }
         onClick={handleLinkClick}
-        className="relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-cyan-700 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
+        className={navLinkClasses}
       >
         {t("contact")}
       </Link>

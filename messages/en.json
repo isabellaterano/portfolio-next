@@ -2,38 +2,49 @@
   "Navigation": {
     "home": "Home",
     "about": "About",
-    "projects": "Projects",
+    "projects": "Portfolio",
     "contact": "Contact"
   },
   "Home": {
-    "h1": "Hi, my name is Isabella.",
+    "h1": "Hi, my name is Isabella!",
     "p": "I’m a front-end web developer & UX/UI designer.",
     "button": "see my projects",
-    "button2": "contact me"
+    "button2": "contact me",
+    "animation": {
+      "text1": "I make websites.",
+      "text2": "I build responsive interfaces.",
+      "text3": "I create seamless user experiences.",
+      "text4": "Turning ideas into interactive designs.",
+      "ariaLabel": "Animated text showing different types of websites."
+    }
   },
   "About": {
     "h1": "About me",
-    "p": "Hi there! I'm Isabella Terano, a Front-End Web Developer and UX Designer based in Brazil. When I'm not writing code, you can often find me immersed in the world of horror films. Yes, I'm that person who eagerly anticipates every jump scare and plot twist! I'm always curious to learn more, when it comes to explore new technologies and design. My focus is on empowering users through intuitive design, accessibility, and optimizing performance for a seamless browsing experience.",
+    "sub": "A bit about me and the technologies I leverage to build exceptional websites.",
+    "p": "Hello! I’m Isabella, a Front-End Web Developer and UX Designer based in Brazil. With a deep curiosity for new technologies and design innovations, I’m dedicated to creating intuitive and accessible web experiences. My focus is on empowering users through thoughtful design and performance optimization, ensuring seamless and engaging interactions.",
     "skills": "Skills"
   },
   "Contact": {
-    "h1": "Contact",
+    "h1": "Get in touch",
+    "p": "If you liked my work and have a project in mind, want to collaborate, or simply wish to share your thoughts, don't hesitate to reach out.",
     "pfirst": "Please contact me directly at ",
     "psecond": "or through this form. I'll get back to you as soon as possible.",
+    "name": "Your name",
     "email": "Your email",
     "message": "Your message",
     "button": "Submit"
   },
   "Project": {
-    "h1": "Projects",
+    "h1": "Portfolio",
+    "p": "Explore a selection of the diverse projects I've crafted over the years, including sales pages, landing pages, eCommerce sites, institutional websites, portfolios, blogs, web applications, and more.",
     "medical": {
-      "title": "StayHealthy Medical consultation platform"
+      "title": "StayHealthy"
     },
     "rental": {
-      "title": "DreamDwell Real Estate"
+      "title": "DreamDwell"
     },
     "chair": {
-      "title": "Chair | E-commerce"
+      "title": "Chair"
     },
     "tattoo": {
       "title": "Skull Tattoo Studio"
@@ -48,14 +59,18 @@
       "title": "PetCare Veterinary Clinic"
     },
     "full": {
-      "title": "Portfolio | Developer"
+      "title": "JE | Full Stack Developer"
     },
     "designer": {
-      "title": "Portfolio | Graphic Design"
+      "title": "MM | Graphic Designer"
     },
     "photo": {
-      "title": "Portfolio | Photographer"
+      "title": "JL | Photographer"
     },
-    "demo": "visit website"
+    "software": {
+      "title": "JM | Software Engineer"
+    },
+    "demo": "visit website",
+    "button": "I want to see more works"
   }
 }
