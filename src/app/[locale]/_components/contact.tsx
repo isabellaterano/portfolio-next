@@ -50,7 +50,7 @@ export default function Contact() {
             }}
           >
             <input
-              className="block w-full h-14 px-4 rounded-md border border-gray-300 focus:ring-2 focus:ring-blue-500 transition-shadow shadow-sm placeholder-gray-500"
+              className="block w-full h-14 px-4 rounded-md border border-gray-300 text-black focus:border-none focus:ring-2 focus:ring-blue-500 transition-shadow shadow-sm placeholder-gray-500"
               name="firstName"
               type="text"
               required
@@ -58,7 +58,7 @@ export default function Contact() {
               placeholder={t("name")}
             />
             <input
-              className="block w-full h-14 px-4 rounded-md border border-gray-300 focus:ring-2 focus:ring-blue-500 transition-shadow shadow-sm placeholder-gray-500"
+              className="block w-full h-14 px-4 rounded-md border text-black focus:border-none border-gray-300 focus:ring-2 focus:ring-blue-500 transition-shadow shadow-sm placeholder-gray-500"
               name="senderEmail"
               type="email"
               required
@@ -66,7 +66,7 @@ export default function Contact() {
               placeholder={t("email")}
             />
             <textarea
-              className="block w-full h-52 px-4 py-3 rounded-md border border-gray-300 focus:ring-2 focus:ring-blue-500 transition-shadow shadow-sm placeholder-gray-500"
+              className="block w-full h-52 px-4 py-3 rounded-md border border-gray-300 focus:ring-2 focus:ring-blue-500 transition-shadow shadow-sm placeholder-gray-500 text-black"
               name="message"
               placeholder={t("message")}
               required
@@ -74,7 +74,7 @@ export default function Contact() {
             />
             <button
               type="submit"
-              className="group relative inline-flex justify-center items-center gap-1.5 rounded-md bg-zinc-900 border-2 border-zinc-900 px-4 py-2 text-zinc-200 hover:bg-zinc-300 hover:text-zinc-900"
+              className="group relative inline-flex justify-center items-center gap-1.5 rounded-md bg-zinc-900 border-2 border-zinc-900 px-4 py-2 text-zinc-200 hover:bg-white hover:text-zinc-900"
               disabled={pending}
             >
               {pending ? (
@@ -84,7 +84,7 @@ export default function Contact() {
                   {t("button")}
                   <PaperPlaneRight
                     size={24}
-                    className="transition-transform group-hover:-rotate-45 group-active:-rotate-12"
+                    className="transition-transform group-hover:-rotate-45 group-active:-rotate-12 hover:text-blue-800"
                   />
                 </>
               )}
