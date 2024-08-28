@@ -32,12 +32,12 @@ export const metadata: Metadata = {
 const Project = () => {
   const t = useTranslations("Project");
   const keys = [
+    "food",
     "medical",
     "rental",
     "software",
     "forge",
     "chair",
-    "tattoo",
   ] as const;
 
   const displayedProjects = projectsData.slice(0, 6);

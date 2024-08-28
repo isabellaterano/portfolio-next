@@ -30,6 +30,7 @@ export const metadata: Metadata = {
 const Portfolio = () => {
   const t = useTranslations("Project");
   const keys = [
+    "food",
     "medical",
     "rental",
     "software",

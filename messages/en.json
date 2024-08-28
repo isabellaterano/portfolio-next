@@ -37,6 +37,9 @@
   "Project": {
     "h1": "Portfolio",
     "p": "Explore a selection of the diverse projects I've crafted over the years, including sales pages, landing pages, eCommerce sites, institutional websites, portfolios, blogs, web applications, and more.",
+    "food": {
+      "title": "Julia Rossi's Delights"
+    },
     "medical": {
       "title": "StayHealthy"
     },

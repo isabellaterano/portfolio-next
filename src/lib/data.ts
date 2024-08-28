@@ -9,6 +9,7 @@ import project8 from "../../public/images/project8.png";
 import project9 from "../../public/images/project9.png";
 import project10 from "../../public/images/project10.png";
 import project11 from "../../public/images/project11.png";
+import project12 from "../../public/images/project12.png";
 import Html from "../../public/icon/html.svg";
 import Css from "../../public/icon/css.svg";
 import Figma from "../../public/icon/figma.svg";
@@ -22,6 +23,12 @@ import Framer from "../../public/icon/framermotion.svg";
 import Next from "../../public/icon/nextjs.svg";
 
 export const projectsData = [
+  {
+    title: "Julia Rossi Blog",
+    tags: "Blog",
+    imageUrl: project12,
+    urlDemo: "https://receitasdajulia.vercel.app/",
+  },
   {
     title: "Medical consultation platform",
     tags: "Consult platform",

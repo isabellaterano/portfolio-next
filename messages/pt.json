@@ -37,6 +37,9 @@
   "Project": {
     "h1": "Portfólio",
     "p": "Explore uma seleção dos diversos projetos que criei ao longo dos anos, incluindo páginas de vendas, landing pages, sites de comércio eletrônico, sites institucionais, portfólios, blogs, aplicativos da web e muito mais.",
+    "food": {
+      "title": "Delícias da Julia Rossi"
+    },
     "medical": {
       "title": "StayHealthy"
     },
